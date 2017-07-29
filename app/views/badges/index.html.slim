@@ -1,0 +1,15 @@
+h1 Badge List
+
+table
+  tr class='table-heading'
+    td Level
+    td Description
+
+  - @badges.each do |badge|
+    tr
+      td colspan=10 class='badge-name' = badge.name
+    tr
+      - badge.badge_levels.each do |level|
+        td = level.level
+        td = level.description
+

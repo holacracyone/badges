@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+.table-heading {
+  font-size: 18px;
+  text-decoration: underline;
+  font-wieght: bold;
+}
+
+.badge-name {
+  font-size: 18px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #00ff00;
+}
+
+.badge-levels td {
+  border: 1px solid #000;
+}
